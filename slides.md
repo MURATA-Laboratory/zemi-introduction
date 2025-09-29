@@ -31,12 +31,13 @@ color: pink-light
 :: content ::
 
 - 氏名：**村田　匡輝（むらた　まさき）**
-- 性別：**男**
-- 年齢：**40歳**
-  - 1984年12月29日生まれ
+- 年齢：**40歳**（1984年12月29日生まれ）
 - 出身：**愛知県名古屋市**
-- 経歴：**名古屋大学で博士（情報科学）を取得後，豊田高専情報工学科で12年間勤務**
-- 連絡先：<Email v="murata.masaki@toyota.kosen-ac.jp" />
+- 経歴：
+  - 2013年：**名古屋大学で博士（情報科学）を取得**
+  - 2013年〜2025年：**豊田高専情報工学科 教員**
+  - 2025年〜：**中京大学工学部情報工学科 教員**
+- 連絡先：<Email v="m-murata@sist.chukyo-u.ac.jp" />
 
 <br>　村田の個人ページです <mdi-arrow-right-bold-circle /> https://mnacsm.github.io/
 
@@ -46,7 +47,7 @@ color: pink-light
 ---
 
 :: title ::
-# 村田(匡)研究室では...
+# 村田匡輝研究室（自然言語処理研究室）では...
 
 :: content ::
 ## <span v-mark.red>自然言語</span>処理に関する研究を推進
@@ -71,6 +72,17 @@ color: pink
 ---
 
 # 自然言語処理の中でも特に，<br><span v-mark.circle.red>「音声言語」</span><br>を対象とした研究を実施
+
+---
+layout: top-title
+color: pink-light
+---
+
+:: title ::
+# 教員紹介ページ
+
+:: content ::
+<img class="" src="/profiles.png" alt="">
 
 ---
 layout: top-title-two-cols
@@ -258,14 +270,14 @@ transition: slide-up
 ---
 
 :: title ::
-# 研究室・配属について
+# ゼミ・卒業研究
 
 :: content ::
-# ゼミ・卒業研究（火曜日開講予定）
+# 火曜日開講
 
-- 2年生：自然言語処理の基本的な技術，Pythonプログラミング技術（，機械学習・深層学習の技術）を<br>身に付けるための勉強会・演習を実施予定です
-- 3年生：2年生に引き続き，より高度な技術を学びながら，プロジェクト演習的な研究活動の実施，<br>卒業研究テーマの決定を行いたいと思っています
-- 4年生：各自で**卒業研究**に取り組んでもらう予定です
+- 2年生（火曜2コマ目）：自然言語処理の基本的な技術，Pythonプログラミング技術（，機械学習・深層学習の技術），論文の読み方・まとめ方を身に付けるための勉強会・演習を実施予定です
+- 3年生（火曜3, 4コマ目）：2年生に引き続き，より高度な技術を学びながら，プロジェクト演習的な研究活動の実施，卒業研究テーマの決定を行いたいと思っています
+- 4年生（火曜5コマ目）：各自で**卒業研究**に取り組んでもらう予定です
 
 <div class="text-white bg-pink-500 p-1 pl-3 pr-3 m-1 rounded font-size-5 text-center font-bold">
 卒研のテーマは，本スライドで紹介したものに限らず，<br>自然言語を扱うテーマを幅広く設定したいと思います．
@@ -279,6 +291,7 @@ transition: slide-up
 layout: top-title
 color: pink-light
 transition: slide-up
+hidden: true
 ---
 
 :: title ::
