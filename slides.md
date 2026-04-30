@@ -1,15 +1,11 @@
 ---
 theme: neversink
-# themeConfig:
-  # primary: '#5d8392'
+colorScheme: light
 title: 村田匡輝研究室ゼミ紹介
 titleTemplate: '%s'
 info: false
 class: text-center
-# drawings:
-  # persist: false
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 layout: cover
 color: pink
@@ -26,6 +22,7 @@ color: pink-light
 ---
 
 :: title ::
+
 # プロフィール
 
 :: content ::
@@ -47,9 +44,11 @@ color: pink-light
 ---
 
 :: title ::
+
 # 村田匡輝研究室（自然言語処理研究室）では...
 
 :: content ::
+
 ## <span v-mark.red>自然言語</span>処理に関する研究を推進
 
 <v-click>
@@ -79,10 +78,12 @@ color: pink-light
 ---
 
 :: title ::
+
 # 教員紹介ページ
 
 :: content ::
-<img class="" src="/profiles.png" alt="">
+
+<img src="/profiles.png" alt="" style="width:85%; height:auto; display:block; margin:0 auto;">
 
 ---
 layout: top-title-two-cols
@@ -93,9 +94,11 @@ transition: slide-up
 ---
 
 :: title ::
+
 # 1. 人の語りを傾聴するシステムの開発
 
 :: left ::
+
 ## 人は基本，語りたい
 
 - でも，話を聞いてくれる人がいつもいるわけじゃない...<br> ⇨ 情報機器に聞き手になってもらう‼️
@@ -109,6 +112,7 @@ transition: slide-up
 <span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-7">**人間の欲求を満たすシステム**</span>
 
 :: right ::
+
 <img class="" src="/robot.png" alt="">
 
 ---
@@ -118,12 +122,14 @@ transition: slide-up
 ---
 
 :: title ::
+
 # 1. 人の語りを傾聴するシステムの開発
 
 :: content ::
+
 ## 研究テーマ
 
-- 傾聴応答のタイミング推定，表現生成，個人最適化，<br>マルチモーダル情報の利用，==大規模言語モデルの活用==など
+- 傾聴応答のタイミング推定，表現生成，個人最適化，<br>マルチモーダル情報の利用，<u>大規模言語モデルの活用</u>など
   - 高齢者の語り30名分に対する聴き手11人分の**傾聴応答コーパス**を利用して研究を推進
 
 ---
@@ -133,6 +139,7 @@ transition: slide-up
 ---
 
 :: title ::
+
 # 傾聴応答コーパス
 
 :: content ::
@@ -150,12 +157,14 @@ transition: slide-up
 ---
 
 :: title ::
+
 # 1. 人の語りを傾聴するシステムの開発
 
 :: content ::
+
 ## 研究テーマ
 
-- 傾聴応答のタイミング推定，表現生成，個人最適化，<br>マルチモーダル情報の利用，==大規模言語モデルの活用==など
+- 傾聴応答のタイミング推定，表現生成，個人最適化，<br>マルチモーダル情報の利用，<u>大規模言語モデルの活用</u>など
   - 高齢者の語り30名分に対する聴き手11人分の**傾聴応答コーパス**を利用して研究を推進
 
 <img class="" src="/attentive_listening.png" alt="">
@@ -163,11 +172,11 @@ transition: slide-up
 ---
 layout: top-title-two-cols
 color: pink-light
+columns: is-7
 ---
 
-<div class="font-size-7 text-center font-bold"><span class="bg-yellow">不同意応答タイミングの検出，表出する表現の分類が<br>一定の水準で可能であることを確認</span></div>
-
 :: title ::
+
 # 研究紹介：語りの傾聴において不同意を示す応答の生成
 
 :: left ::
@@ -178,36 +187,42 @@ color: pink-light
   - 不同意応答タイミングの検出，表出する表現の分類
 
 :: right ::
+
 <img class="" src="/disapproval.png" alt="">
+
+:: default ::
+
+<div class="font-size-7 text-center font-bold"><span class="bg-yellow">不同意応答タイミングの検出，表出する表現の分類が<br>一定の水準で可能であることを確認</span></div>
 
 ---
 layout: top-title-two-cols
-columns: is-8
+columns: is-7
 align: l-lt-lt
 color: pink-light
 transition: slide-up
 ---
 
 :: title ::
+
 # 2. 読みやすい字幕を生成するシステムの開発
 
 :: left ::
-## 講演などの場では
 
-- 高齢者・聴覚障害者の方のために字幕を提示
+- 講演などの場では高齢者・聴覚障害者の方のために字幕を提示
   - 遠隔講義の動画等でも有用
 
 ⇨ <span class="text-pink-500">**音声認識で自動生成された字幕をより読みやすくしたい‼️**</span>
 
-<span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-7">**整形，提示方法の工夫**</span>
+<span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-5">**整形，提示方法の工夫**</span>
 
-## 研究テーマ
+### **研究テーマ**
 
 - 音声と視覚情報を活用した字幕表示の最適化
 - 大規模言語モデルを用いたユーザ個別最適化字幕の生成
 - 発話時間と字幕の提示時間の差異を埋める字幕提示　　など…
 
 :: right ::
+
 <img class="" src="/transcription.png" alt="">
 
 ---
@@ -217,17 +232,21 @@ transition: slide-up
 ---
 
 :: title ::
+
 # 研究紹介：視線位置上への字幕提示システム
 
 :: content ::
-<img class="" src="/eyetracking.gif" alt="">
+
+<img src="/eyetracking.gif" alt="" style="width:80%; height:auto; display:block; margin:0 auto;">
 
 ---
 layout: top-title-two-cols
 color: pink-light
+columns: is-7
 ---
 
 :: title ::
+
 # 研究紹介：<br>マルチタスク学習による講演テキストへの読点と改行の挿入
 <!-- Automatic Insertion of Commas and Linefeeds into Lecture Transcripts based on Multi-Task Learning -->
 
@@ -291,7 +310,7 @@ transition: slide-up
 layout: top-title
 color: pink-light
 transition: slide-up
-hidden: true
+# hidden: true
 ---
 
 :: title ::
