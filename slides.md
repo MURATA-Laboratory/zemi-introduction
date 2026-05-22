@@ -14,7 +14,7 @@ neversink_slug: '村田匡輝研究室ゼミ紹介'
 
 # <span class="font-bold">村田匡輝研究室<br>ゼミ紹介</span>
 
-2025年度　村田 匡輝
+2026年度　村田 匡輝
 
 ---
 layout: top-title
@@ -23,20 +23,20 @@ color: pink-light
 
 :: title ::
 
-# プロフィール
+## **プロフィール**
 
 :: content ::
 
 - 氏名：**村田　匡輝（むらた　まさき）**
-- 年齢：**40歳**（1984年12月29日生まれ）
+- 所属：**情報工学科 講師**
+  - <Email v="m-murata@sist.chukyo-u.ac.jp" />
+  - https://mnacsm.github.io/
+- 生年月日：**1984年12月29日生まれ（41歳）**
 - 出身：**愛知県名古屋市**
 - 経歴：
   - 2013年：**名古屋大学で博士（情報科学）を取得**
   - 2013年〜2025年：**豊田高専情報工学科 教員**
   - 2025年〜：**中京大学工学部情報工学科 教員**
-- 連絡先：<Email v="m-murata@sist.chukyo-u.ac.jp" />
-
-<br>　村田の個人ページです <mdi-arrow-right-bold-circle /> https://mnacsm.github.io/
 
 ---
 layout: top-title
@@ -45,11 +45,24 @@ color: pink-light
 
 :: title ::
 
-# 村田匡輝研究室（自然言語処理研究室）では...
+## **教員紹介ページ**
 
 :: content ::
 
-## <span v-mark.red>自然言語</span>処理に関する研究を推進
+<img src="/profiles.png" alt="" style="width:85%; height:auto; display:block; margin:0 auto;">
+
+---
+layout: top-title
+color: pink-light
+---
+
+:: title ::
+
+## **村田匡輝研究室（自然言語処理研究室）では...**
+
+:: content ::
+
+### **<span v-mark.red>自然言語</span>処理に関する研究を推進**
 
 <v-click>
 
@@ -59,11 +72,10 @@ color: pink-light
 
 <v-click>
 
-- 代表的な自然言語処理技術：
+<!-- <img border="rounded" src="/nlp_task.png" width="" height="" alt="nlp"> -->
+<img src="/nlp_task.png" alt="" style="width:85%; height:auto; display:block; margin:0 auto;">
 
 </v-click>
-
-<v-click><img border="rounded" src="/nlp.png" width="" height="" alt="nlp"></v-click>
 
 ---
 layout: statement
@@ -73,47 +85,37 @@ color: pink
 # 自然言語処理の中でも特に，<br><span v-mark.circle.red>「音声言語」</span><br>を対象とした研究を実施
 
 ---
-layout: top-title
-color: pink-light
----
-
-:: title ::
-
-# 教員紹介ページ
-
-:: content ::
-
-<img src="/profiles.png" alt="" style="width:85%; height:auto; display:block; margin:0 auto;">
-
----
 layout: top-title-two-cols
 columns: is-8
-align: l-lt-lt
 color: pink-light
 transition: slide-up
 ---
 
 :: title ::
 
-# 1. 人の語りを傾聴するシステムの開発
+## **1. 人の語りを傾聴するシステムの開発**
 
 :: left ::
 
-## 人は基本，語りたい
+### **人は基本，語りたい**
 
-- でも，話を聞いてくれる人がいつもいるわけじゃない...<br> ⇨ 情報機器に聞き手になってもらう‼️
+- しかし，話を聞いてくれる人がいつもいるとは限らない...<br> ⇨ 情報機器に聞き手になってもらう‼️
 
-## 話を上手に聞く方法：<span class="text-pink-500">傾聴態度を示す</span>
+#### 話を上手に聞く方法：<span class="text-pink-500">傾聴態度を示す</span>
 
 - 適度に相槌する
 - 共感する
 - 褒める　etc...
 
-<span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-7">**人間の欲求を満たすシステム**</span>
+<!-- <span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-7">**人間の欲求を満たすシステム**</span> -->
+
+<Admonition title="Important" color="pink-light" custom="font-bold text-2xl" icon="mdi-message-alert-outline">
+人間の欲求を満たすシステムの実現
+</Admonition>
 
 :: right ::
 
-<img class="" src="/robot.png" alt="">
+<img src="/robot.png" alt="" style="width:100%; height:auto; display:block; margin:0 auto;">
 
 ---
 layout: top-title
@@ -123,11 +125,11 @@ transition: slide-up
 
 :: title ::
 
-# 1. 人の語りを傾聴するシステムの開発
+## **1. 人の語りを傾聴するシステムの開発**
 
 :: content ::
 
-## 研究テーマ
+### **研究テーマ**
 
 - 傾聴応答のタイミング推定，表現生成，個人最適化，<br>マルチモーダル情報の利用，<u>大規模言語モデルの活用</u>など
   - 高齢者の語り30名分に対する聴き手11人分の**傾聴応答コーパス**を利用して研究を推進
@@ -140,14 +142,14 @@ transition: slide-up
 
 :: title ::
 
-# 傾聴応答コーパス
+## **傾聴応答コーパス**
 
 :: content ::
 
 - 傾聴応答を事前に収録された語りの音声に対して作業者が付与する形で収集
   - **聴き手として傾聴応答の発声に集中，同一の語りに対し<span class="bg-yellow">複数人の多様で自然な応答を網羅的に収集</span>**
 
-<img class="" src="/corpus.png" alt="">
+<img src="/corpus.png" alt="" style="width:100%; height:auto; display:flex; margin:0 auto;">
 <audio controls><source src="/output.wav" type="audio/wav"></audio>
 
 ---
@@ -158,16 +160,16 @@ transition: slide-up
 
 :: title ::
 
-# 1. 人の語りを傾聴するシステムの開発
+## **1. 人の語りを傾聴するシステムの開発**
 
 :: content ::
 
-## 研究テーマ
+### **研究テーマ**
 
 - 傾聴応答のタイミング推定，表現生成，個人最適化，<br>マルチモーダル情報の利用，<u>大規模言語モデルの活用</u>など
   - 高齢者の語り30名分に対する聴き手11人分の**傾聴応答コーパス**を利用して研究を推進
 
-<img class="" src="/attentive_listening.png" alt="">
+<img src="/attentive_listening.png" alt="" style="width:100%; height:auto; display:block; margin:0 auto;">
 
 ---
 layout: top-title-two-cols
@@ -177,53 +179,60 @@ columns: is-7
 
 :: title ::
 
-# 研究紹介：語りの傾聴において不同意を示す応答の生成
+## **研究紹介：語りの傾聴において不同意を示す応答の生成**
 
 :: left ::
 
 - 傾聴応答の基本方略：語りへの同意や肯定を示す<br>
-⇨ 自虐や謙遜が含まれる場合，**同意・肯定してはいけない**
-- 不同意応答生成用のコーパスを作成し，Transformer ベースのモデルで不同意応答を生成
-  - 不同意応答タイミングの検出，表出する表現の分類
+⇨ 自虐や謙遜が含まれる場合，<span class="text-pink-500">**同意・肯定してはいけない**</span>
+- 不同意応答生成用のコーパスを作成し，<br>Transformer ベースのモデルで不同意応答を生成
+  - <u>不同意応答タイミングの検出</u>，<u>表出する表現の分類</u>
 
 :: right ::
 
-<img class="" src="/disapproval.png" alt="">
+<img src="/disapproval.png" alt="" style="width:100%; height:auto; display:block; margin:0 auto;">
 
 :: default ::
 
-<div class="font-size-7 text-center font-bold"><span class="bg-yellow">不同意応答タイミングの検出，表出する表現の分類が<br>一定の水準で可能であることを確認</span></div>
+<div class="text-center">
+
+### <span class="bg-yellow">**不同意応答タイミングの検出，表出する表現の分類が<br>一定の水準で可能であることを確認**</span>
+
+</div>
 
 ---
 layout: top-title-two-cols
 columns: is-7
-align: l-lt-lt
 color: pink-light
 transition: slide-up
 ---
 
 :: title ::
 
-# 2. 読みやすい字幕を生成するシステムの開発
+## **2. 読みやすい字幕を生成するシステムの開発**
 
 :: left ::
 
-- 講演などの場では高齢者・聴覚障害者の方のために字幕を提示
+- 講演などの場では高齢者・聴覚障害者の方のために<br>字幕を提示
   - 遠隔講義の動画等でも有用
 
 ⇨ <span class="text-pink-500">**音声認識で自動生成された字幕をより読みやすくしたい‼️**</span>
 
-<span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-5">**整形，提示方法の工夫**</span>
+<!-- <span class="bg-pink-400 text-pink-100 p-2 border-l-6 border-2 border-pink-500 rounded-lg pl-4 pr-4 font-size-5">**整形，提示方法の工夫**</span> -->
+
+<Admonition title="Important" color="pink-light" custom="font-bold text-xl" icon="mdi-message-alert-outline">
+自動整形，提示方法による可読性の向上
+</Admonition>
 
 ### **研究テーマ**
 
 - 音声と視覚情報を活用した字幕表示の最適化
 - 大規模言語モデルを用いたユーザ個別最適化字幕の生成
-- 発話時間と字幕の提示時間の差異を埋める字幕提示　　など…
+- 発話時間と字幕の提示時間の差異を埋める字幕提示　など
 
 :: right ::
 
-<img class="" src="/transcription.png" alt="">
+<img src="/transcription.png" alt="" style="width:100%; height:auto; display:block; margin:0 auto;">
 
 ---
 layout: top-title
@@ -233,7 +242,7 @@ transition: slide-up
 
 :: title ::
 
-# 研究紹介：視線位置上への字幕提示システム
+## **研究紹介：視線位置上への字幕提示システム**
 
 :: content ::
 
@@ -247,17 +256,21 @@ columns: is-7
 
 :: title ::
 
-# 研究紹介：<br>マルチタスク学習による講演テキストへの読点と改行の挿入
+## **研究紹介：マルチタスク学習による講演テキストへの読点と改行の挿入**
 <!-- Automatic Insertion of Commas and Linefeeds into Lecture Transcripts based on Multi-Task Learning -->
 
 :: left ::
 
 - 音声認識で音声を自動的にテキスト化することが可能
-- 区切りなく提示された複数行で提示されたテキストは読みにくい
+- 区切りなく提示された複数行で提示されたテキストは<br><span class="text-pink-500">**読みにくい**</span>
 - <u>改行挿入，読点挿入用の分類モデルをマルチタスク学習によって学習する手法を提案</u>
-  - 改行，読点を個別に挿入するモデルよりも挿入精度が向上
+  - 改行，読点を個別に挿入するモデルよりも<br>挿入精度が向上
 
-# <span class="bg-yellow">字幕の可読性向上に寄与</span>
+<div class="text-center">
+
+### <span class="bg-yellow">**字幕の可読性向上に寄与**</span>
+
+</div>
 
 :: right ::
 <img class="" src="/lf_punc.png" alt="">
@@ -269,18 +282,20 @@ transition: slide-up
 ---
 
 :: title ::
-# 研究室・配属について
+
+## **研究室について**
 
 :: content ::
-# <u>新しく立ち上げる研究室となります</u>
 
-- 先輩がいない・環境が整っていないなど，様々な点で不便を感じることがあると思いますが，<br>
-最初のメンバーとして研究室を新たに作り上げていってくれる学生さんを特に歓迎したいと思っています
-- もちろん，自然言語処理に興味がある学生さんも歓迎です
-  - ゼミでの活動を通して自然言語処理に必要な以下の能力が身につくことが期待されます
-    - 言語学や数学に関する基礎学力
-    - プログラミング能力（主に Python を使用予定）
-    - 既存研究を調査・理解する能力
+### **<u>まだ新しい研究室です</u>** <span class="text-base">　現在，3年生 7名が在籍</span>
+
+- 先輩が少ない・環境が整っていない・蓄積がないなど，不便を感じる場面が多いかもしれませんが，<br>
+初期メンバーとして**研究室を作り上げていってくれる学生**さんを特に歓迎したいと思っています
+- もちろん，<span class="text-pink-500">**自然言語処理に興味がある学生さん**</span>を歓迎します
+- ゼミでの活動を通して自然言語処理に必要な以下の能力が身につくことが期待されます
+  - <u>数学や言語学に関する基礎学力</u>
+  - <u>プログラミング能力（主に Python を使用）</u>
+  - <u>既存研究を調査・理解，問題を解決する能力</u>
 
 ---
 layout: top-title
@@ -289,14 +304,15 @@ transition: slide-up
 ---
 
 :: title ::
-# ゼミ・卒業研究
+
+## **ゼミ・卒業研究について【火曜日開講】**
 
 :: content ::
-# 火曜日開講
 
-- 2年生（火曜2コマ目）：自然言語処理の基本的な技術，Pythonプログラミング技術（，機械学習・深層学習の技術），論文の読み方・まとめ方を身に付けるための勉強会・演習を実施予定です
-- 3年生（火曜3, 4コマ目）：2年生に引き続き，より高度な技術を学びながら，プロジェクト演習的な研究活動の実施，卒業研究テーマの決定を行いたいと思っています
-- 4年生（火曜5コマ目）：各自で**卒業研究**に取り組んでもらう予定です
+- 2年生（**火曜2コマ目**）：自然言語処理の基本的な技術，Pythonプログラミング技術（，機械学習・深層学習の技術），論文の読み方・まとめ方を身に付けるための勉強会・演習を実施予定です
+  - 昨年度は主に [言語処理100本ノック](https://nlp100.github.io/2025/ja/index.html) に取り組んだほか，言語処理・機械学習の関連知識，論文の読み方に関する内容を学びました
+- 3年生（**火曜3, 4コマ目**）：より高度な技術を学びながら，既存研究の再現を含むプロジェクト的な活動の実施して関連テーマの理解を深め，卒業研究テーマの決定を行います
+- 4年生（**火曜5コマ目**）：各自で**卒業研究**に取り組んでもらう予定です
 
 <div class="text-white bg-pink-500 p-1 pl-3 pr-3 m-1 rounded font-size-5 text-center font-bold">
 卒研のテーマは，本スライドで紹介したものに限らず，<br>自然言語を扱うテーマを幅広く設定したいと思います．
@@ -310,19 +326,21 @@ transition: slide-up
 layout: top-title
 color: pink-light
 transition: slide-up
-# hidden: true
+disabled: true
 ---
 
 :: title ::
-# 研究室・配属について
+
+## **配属について**
 
 :: content ::
-# 面接について
 
-- murata.masaki@toyota.kosen-ac.jp までアポイントをお願いします
-  - 氏名，研究室紹介資料・ビデオを見て興味を持ったポイント（簡単に），面接の希望日時（できれば複数）をお知らせください
+### **面接について**
+
+- m-murata@sist.chukyo-u.ac.jp までアポイントをお願いします
+  - 氏名，ゼミ紹介を聞いて興味を持ったポイント，面接の希望日時（できれば複数）を記入してください
 - 面接可能時間：△は要調整
-  - 7月1日(火) 9:00〜13:00 △
-  - 7月2日(水) 9:00〜12:25 △，13:00〜16:00 ◯
-  - 7月3日(木) 9:00〜10:45 ◯，10:55〜 △
-- 面接はオンラインで，10分程度を予定しています．<br>僕自身分かっていない部分も多いので，色々お話しましょう
+  - x月x日(x) xx:xx〜xx:xx △
+  - x月x日(x) xx:xx〜xx:xx △，xx:xx〜xx:xx ◯
+  - x月x日(x) xx:xx〜xx:xx ◯，xx:xx〜 △
+- 面接時間は 10分程度を予定しています．僕自身分かっていない部分も多いので，色々お話しましょう
